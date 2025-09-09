@@ -6,6 +6,7 @@ export default function Layouting({children}:{children:React.ReactNode}){
         <body>
         <h1 className="bg-red-700"></h1>
         {children}
+        <input className="bg-amber-300 h-[5vw] w-[10vw]"/>
         </body>
         </html>
     )
