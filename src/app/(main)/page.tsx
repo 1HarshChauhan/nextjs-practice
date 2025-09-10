@@ -3,6 +3,10 @@ import Link from "next/link";
 export default async function Home(){
     const produ=3;
     await new Promise((resolve)=>{
+    // const errror=3;
+    // if(errror==3){
+    //     throw new Error("error occured");
+    // }
     setTimeout(()=>{
         console.log("hello");
         resolve("yo");
