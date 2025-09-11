@@ -1,6 +1,7 @@
 import {data} from "./datas";
-
+import {redirect} from "next/navigation";
 export async function GET(){
+    redirect("http://localhost:3000/api/data/query?roll=21")
     return new Response(JSON.stringify(data),{
         status:200,
     })
